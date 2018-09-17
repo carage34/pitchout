@@ -1,0 +1,10 @@
+name: Pitchout
+main: fr.carage.pitchout.Pitchout
+version: 1.0.0
+description: Plugin pitchout Epicube like
+author: carage
+commands:
+ Start:
+  description: 'trololol'
+  aliases: c
+  usage: 'Syntaxe: /<command>'
