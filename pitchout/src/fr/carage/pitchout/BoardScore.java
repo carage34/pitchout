@@ -27,6 +27,7 @@ public class BoardScore {
         this.score.setScore(JoinListener.playerCount);
         for(Player p : Bukkit.getOnlinePlayers()) {
             p.setScoreboard(sb);
+            p.setHealth(10);
         }
 
         Bukkit.getScheduler().runTaskTimer(this.plugin, new fr.carage.pitchout.CountDown(objective), 0, 20);

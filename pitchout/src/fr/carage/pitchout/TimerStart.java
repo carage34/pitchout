@@ -22,7 +22,8 @@ public class TimerStart extends BukkitRunnable {
             }
             i--;
         } else {
-            bs.start();
+            BoardStart start = new BoardStart(bs);
+            start.runTaskLater(Jeu.plugin, 20);
             this.cancel();
         }
     }

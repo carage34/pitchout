@@ -12,7 +12,7 @@ import java.util.Timer;
 
 public class Jeu implements CommandExecutor {
     private BoardScore bs;
-    public Plugin plugin;
+    public static Plugin plugin;
     public static boolean started = false;
     public Jeu(BoardScore board, Plugin plug) {
         this.plugin = plug;
